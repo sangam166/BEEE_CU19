@@ -6,10 +6,10 @@ LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 
 void setup() {
   lcd.begin(16, 2);
-  lcd.print("Sushant kumar 19bec1078");
+  lcd.print("sangan choudhary,uid-19BEC1087");
 }
 
-void loop() {
+void loop() 
 
   lcd.setCursor(0, 1);
   lcd.print(millis() / 1000);
